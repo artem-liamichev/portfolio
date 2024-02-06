@@ -407,7 +407,7 @@ function handleSavedMoviesRendering() {
     
     <div className="page__container">
       {/* <Switch> */}
-        <Route exact path="/portfolio">
+        <Route exact path="/portfolio/">
           <main className='main'>
           {!isLoggedIn && <LandingHeader/>}
           {isLoggedIn && <Header 
